@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(205, 202, 199);
+}
+img{
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition:all .5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+#one{
+    left: 20%;
+}
+#two{
+    left: 40%;
+}
+#three{
+    left: 60%;
+}
+#four{
+    left:80% ;
+}
+img:hover{
+   height: 60%;
+}
